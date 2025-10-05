@@ -1,1 +1,1 @@
-javac Book.java MyBookList.java
+Book.java MyBookList.java
