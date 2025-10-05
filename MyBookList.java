@@ -65,7 +65,6 @@ public class MyBookList {
             if (b.getYearPublished() > 2010) {
                 System.out.println();
                 System.out.println(b.getTitle());
-                System.out.println("                   =================================");
             }
         }
     }
