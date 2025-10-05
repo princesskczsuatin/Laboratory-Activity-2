@@ -7,7 +7,7 @@ class Book {
         this.title = title;
         this.author = author;
         this.yearPublished = yearPublished;
-        this.currentPage = 0; // default starting page
+        this.currentPage = 0;
     }
     public void displayDetails() {
         System.out.println("Title: " + title + 
