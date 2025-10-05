@@ -19,7 +19,8 @@ public class MyBookList {
         //     Title: The Power of Habit, Author: Charles Duhigg, Year: 2012, Current Page: 0
         //     Title: Atomic Habits, Author: James Clear, Year: 2018, Current Page: 0
         //     Title: Java Programming, Author: John Doe, Year: 2020, Current Page: 0
- 
+
+        System.out.println("==========LIST OF BOOKS==========");
         b1.displayDetails();
         b2.displayDetails();
         b3.displayDetails();
@@ -61,6 +62,7 @@ public class MyBookList {
         System.out.println("Books Published After 2010:");
         for (Book b : books) {
             if (b.getYearPublished() > 2010) {
+                System.out.println();
                 System.out.println(b.getTitle());
             }
         }
