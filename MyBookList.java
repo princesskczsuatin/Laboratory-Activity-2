@@ -13,8 +13,7 @@ public class MyBookList {
         Book b4 = new Book("Java Programming", "John Doe", 2020);
         Book b5 = new Book("Noli Me Tangere", "José Rizal", 1887);
 
-
-
+        
         // 2.) Display the details of each book using the displayDetails method. Below is the sample output
         //     Title: Rich Dad Poor Dad, Author: Robert Kiyosaki, Year: 1997, Current Page: 0
         //     Title: The Power of Habit, Author: Charles Duhigg, Year: 2012, Current Page: 0
