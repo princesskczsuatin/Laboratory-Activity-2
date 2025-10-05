@@ -15,7 +15,6 @@ class Book {
                            ", Year: " + yearPublished + 
                            ", Current Page: " + currentPage);
     }
-    // Method to change the current page
     public void changePage(int page) {
         this.currentPage = page;
     }
